@@ -5,7 +5,7 @@
 
   This is the project for the week 9
   
-  ## Table of Contents (Optional)
+  ## Table of Contents
   
   
   * [Installation](#installation)

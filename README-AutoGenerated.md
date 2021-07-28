@@ -5,7 +5,7 @@
 
     This is command-line application that accepts user input and it creates a read me file based on the user input
   
-  ## Table of Contents (Optional)
+  ## Table of Contents
  
   * [Installation](#installation)
   * [Usage](#usage)
