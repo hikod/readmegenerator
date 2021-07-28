@@ -26,7 +26,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'Provide contribution guidelines for the project: '
     },
     {
@@ -38,7 +38,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for the project: ',
-        choices: ['MIT', 'Apache', 'GPL', 'GPL v3', 'LGPL v3', 'None']
+        choices: ['MIT', 'Apache', 'Apache 2', 'compliant', 'BSD', 'GPL', 'GPL v3', 'LGPL v3', 'None']
     },
     {
         type: 'input',
@@ -53,10 +53,16 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((answer) => {
+            writeToFile("README.md", generateMarkdown(answer));
+        });
+}
 
 // Function call to initialize app
 init();
