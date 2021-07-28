@@ -28,7 +28,7 @@
 
   ## Screenshots & Additional Info
 
-  ![image](./assets/img/cli.jpg)
+  ![image](./utils/assets/img/cli.jpg)
   
   The demo can be found: https://drive.google.com/file/d/1RfFUcx0oxm2jdPrQTsQztbe1OxAscGnI/view?usp=sharing
   The URL to the repo: https://github.com/hikod/readmegenerator
